@@ -1,5 +1,73 @@
+/* RESET Y ESTILOS BASE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  color: #212529;
+  background-color: #fff;
+}
+
+/* CENTRAR ELEMENTOS */
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  display: block;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* LISTAS CENTRADAS */
+ul.list-unstyled {
+  list-style-type: none;
+  padding-left: 0;
+  text-align: center;
+}
+
+/* FORMULARIO HORIZONTAL */
+.horizontal-form .form-inputs {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.horizontal-form .form-group {
+  display: flex;
+  flex-direction: column;
+}
+.horizontal-form .form-group label {
+  margin-bottom: 0.5rem;
+}
+
+/* ESTILOS DEL BOTÓN */
+.btn-primary {
+  background-color: #ee0979;
+  border-color: #ee0979;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-primary:hover {
+  background-color: #d40f69;
+  border-color: #d40f69;
+}
+
+.btn-lg {
+  font-size: 1.25rem;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
