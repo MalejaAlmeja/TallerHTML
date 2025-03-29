@@ -25,14 +25,14 @@
         <hr width="100%" color="grey" size="4">
         <p class="text-center">¡Hola! Hoy aprenderás a hacer un kusudama tradicional de papel. Para ello, necesitarás:</p>
         <div class="row">
-            <div class="col-xs-12 col-sm-6">
+            <div class="col-12 col-sm-6">
                 <ul>
                     <li>Nueve hojas de papel de un color</li>
                     <li>Nueve hojas de papel de un color distinto al anterior</li>
                     <li>Ocho hojas de papel de un color distinto a los anteriores</li>
                 </ul>
             </div>
-            <div class="col-xs-12 col-sm-6">
+            <div class="col-12 col-sm-6">
                 <ul>
                     <li>Ocho hojas de papel de un color distinto a los anteriores</li>
                     <li>Aguja e hilo (un metro aproximadamente)</li>
@@ -48,24 +48,23 @@
           <p class="text-center">¡Comencemos!</p>
           <h3 class="text-center">Unidad</h3>
         <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="col-12 col-sm-6">
                 <p class="text-center">Pasos 1 a 5</p>
                 <img src="imagenes/pasos1-5.png" alt="pasos1-5" width="440" height="108" class="center"/>
             </div>
            
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                
+            <div class="col-12 col-sm-6">
                 <p class="text-center">Pasos 6 a 10</p>
                 <img src="imagenes/pasos6-10.png" alt="pasos6-10" width="440" height="108" class="center"/>
             </div>
             
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="col-12 col-sm-6">
                 <br/>
                 <p class="text-center">Pasos 11 a 14</p>
                 <img src="imagenes/pasos11-14.png" alt="pasos11-14" width="420" height="130" class="center"/>
             </div>
             
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="col-12 col-sm-6">
                 <br/>
                 <p class="text-center">Pasos 15 a 17</p>
                 <img src="imagenes/pasos14-17.png" alt="pasos15-17" width="420" height="130" class="center"/>
@@ -84,25 +83,27 @@
     <p class="text-center">¡Hemos terminado!</p>
 
     <hr width="100%" color="grey" size="4">
-    <h3 class="text-center">¿Quieres recibir las últimas notificaciones? ¡Suscríbete para obtener las últimas noticias, modelos e ideas!</h3>
-    <form>
-        Nombre:
+<h3 class="text-center">¿Quieres recibir las últimas notificaciones? ¡Suscríbete para obtener las últimas noticias, modelos e ideas!</h3>
+<form class="horizontal-form">
+    <div class="form-group">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" value="..." class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" value="..." class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="correo">Correo Electrónico:</label>
+        <input type="text" id="correo" name="correo" value="abcde@gmail.com" class="form-control">
+    </div>
+    <div class="form-submit text-center">
+        <input type="submit" value="¡Quiero recibir las últimas noticias!" class="btn btn-primary btn-lg">
         <br/>
-        <input type="text" name="nombre" value="...">
         <br/>
-        <br/> Apellido:
-        <br/>
-        <input type="text" name="apellido" value="...">
-        <br/>
-        <br/> Correo Electrónico:
-        <br/>
-        <input type="text" name="correo" value="abcde@gmail.com">
-        <br/>
-        <br/>
-        <input type="submit" value="¡Quiero recibir las últimas noticias!">
-        <br/>
-        <br/>
-       </form>
+    </div>
+</form>
+
  </body>
 </html>
 

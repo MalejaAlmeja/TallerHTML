@@ -1,4 +1,4 @@
-/* RESET Y ESTILOS BASE */
+
 * {
   margin: 0;
   padding: 0;
@@ -9,8 +9,6 @@ body {
   color: #212529;
   background-color: #fff;
 }
-
-/* CENTRAR ELEMENTOS */
 .center {
   display: block;
   margin: 0 auto;
@@ -20,54 +18,58 @@ body {
   text-align: center;
 }
 
-/* LISTAS CENTRADAS */
+
 ul.list-unstyled {
   list-style-type: none;
   padding-left: 0;
   text-align: center;
 }
 
-/* FORMULARIO HORIZONTAL */
-.horizontal-form .form-inputs {
+
+.horizontal-form {
   display: flex;
-  gap: 1rem;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 1rem;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 2rem;
 }
+
 .horizontal-form .form-group {
   display: flex;
   flex-direction: column;
-}
-.horizontal-form .form-group label {
-  margin-bottom: 0.5rem;
+  align-items: center;
 }
 
-/* ESTILOS DEL BOTÓN */
+.horizontal-form .form-group label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.horizontal-form .form-control {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.horizontal-form .form-submit {
+  text-align: center;
+  width: 100%;
+}
+
+/* Estilo del botón */
 .btn-primary {
   background-color: #ee0979;
   border-color: #ee0979;
-  padding: 10px 20px;
+  padding: 5px 10px;
   font-size: 1rem;
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  border-radius: 25px;
+  cursor: pointer;
 }
 
 .btn-primary:hover {
   background-color: #d40f69;
   border-color: #d40f69;
-}
-
-.btn-lg {
-  font-size: 1.25rem;
-}
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
